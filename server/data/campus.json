@@ -1,0 +1,875 @@
+[
+  {
+    "id": "uco-bank",
+    "name": "UCO Bank",
+    "type": "admin",
+    "coordinates": {
+      "lat": 30.5168232,
+      "lng": 76.6574394
+    },
+    "description": "On-campus UCO Bank branch with ATM, providing banking services for students and staff.",
+    "floors": 1,
+    "departments": [
+      "Banking Services"
+    ],
+    "amenities": [
+      "ATM",
+      "Bank Counter",
+      "Locker Facility"
+    ],
+    "nearbyLandmarks": [
+      "Football Ground",
+      "Exploretorium",
+      "Newton Block"
+    ]
+  },
+  {
+    "id": "mass-communication-block",
+    "name": "Mass Communication Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5173747,
+      "lng": 76.6588278
+    },
+    "description": "The Mass Communication Block at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "teresa-girls-hostel",
+    "name": "Teresa Girls Hostel",
+    "type": "hostel",
+    "coordinates": {
+      "lat": 30.5172499,
+      "lng": 76.6586186
+    },
+    "description": "The Teresa Girls Hostel at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "old-girls-hostel-ogh-",
+    "name": "Old Girls Hostel (OGH)",
+    "type": "hostel",
+    "coordinates": {
+      "lat": 30.5169265,
+      "lng": 76.6587473
+    },
+    "description": "The Old Girls Hostel (OGH) at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "socrates-hall",
+    "name": "Socrates Hall",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5166353,
+      "lng": 76.6588814
+    },
+    "description": "The Socrates Hall at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "saraswati-mata",
+    "name": "Saraswati Mata",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.515935,
+      "lng": 76.6601754
+    },
+    "description": "The Saraswati Mata at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "mech",
+    "name": "Mech",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5155602,
+      "lng": 76.6581192
+    },
+    "description": "The Mech at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "tq",
+    "name": "TQ",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5147739,
+      "lng": 76.660105
+    },
+    "description": "The TQ at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "neelam-hospital-superspeciality-health-care",
+    "name": "Neelam Hospital Superspeciality Health Care",
+    "type": "medical",
+    "coordinates": {
+      "lat": 30.5188217,
+      "lng": 76.6585059
+    },
+    "description": "On-campus superspeciality hospital providing 24/7 medical care, OPD, pharmacy, and emergency services to students and staff.",
+    "floors": 3,
+    "departments": [
+      "Medical Services",
+      "Emergency",
+      "Pharmacy"
+    ],
+    "amenities": [
+      "OPD",
+      "Emergency Room",
+      "Pharmacy",
+      "Ambulance",
+      "Specialist Doctors",
+      "Diagnostic Lab"
+    ],
+    "nearbyLandmarks": [
+      "Admission Block",
+      "Alpha Zone",
+      "Newton Block"
+    ]
+  },
+  {
+    "id": "dr-sidhant-bansal",
+    "name": "Dr. Sidhant Bansal",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5190116,
+      "lng": 76.6582124
+    },
+    "description": "The Dr. Sidhant Bansal at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "le-corbusier-block",
+    "name": "Le Corbusier Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5172646,
+      "lng": 76.6604831
+    },
+    "description": "The Le Corbusier Block at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "edison-block",
+    "name": "Edison Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5164539,
+      "lng": 76.6599308
+    },
+    "description": "Academic block named after Thomas Edison. Houses Electronics & Communication and Electrical Engineering departments.",
+    "floors": 4,
+    "departments": [
+      "Electronics & Communication",
+      "Electrical Engineering"
+    ],
+    "amenities": [
+      "Electronics Labs",
+      "IoT Lab",
+      "Lecture Halls",
+      "Faculty Cabins"
+    ],
+    "nearbyLandmarks": [
+      "Newton Block",
+      "Turing Block",
+      "Alpha Zone"
+    ]
+  },
+  {
+    "id": "newton-block",
+    "name": "Newton Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5164505,
+      "lng": 76.6591975
+    },
+    "description": "Academic block named after Isaac Newton. Houses Physics, Applied Sciences, and research labs.",
+    "floors": 4,
+    "departments": [
+      "Applied Sciences",
+      "Physics",
+      "Mathematics"
+    ],
+    "amenities": [
+      "Physics Labs",
+      "Research Center",
+      "Lecture Halls",
+      "Faculty Cabins"
+    ],
+    "nearbyLandmarks": [
+      "Edison Block",
+      "Chitkara Woods",
+      "Volleyball Court"
+    ]
+  },
+  {
+    "id": "galileo-block",
+    "name": "Galileo Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5156555,
+      "lng": 76.6591438
+    },
+    "description": "The Galileo Block at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "pythagoras",
+    "name": "PYTHAGORAS",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5150733,
+      "lng": 76.6591063
+    },
+    "description": "Pythagoras Block, dedicated to mathematics and core sciences.",
+    "floors": 1,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "explore-hub",
+    "name": "Explore Hub",
+    "type": "admin",
+    "coordinates": {
+      "lat": 30.5152723,
+      "lng": 76.659442
+    },
+    "description": "Multi-purpose student engagement center with event spaces, club rooms, and creative workshops.",
+    "floors": 2,
+    "departments": [
+      "Student Activities",
+      "Clubs & Societies"
+    ],
+    "amenities": [
+      "Event Hall",
+      "Club Rooms",
+      "Art Studio",
+      "Music Room"
+    ],
+    "nearbyLandmarks": [
+      "Hospitality Block",
+      "Omega Zone",
+      "Beta Zone"
+    ]
+  },
+  {
+    "id": "de-morgan-block",
+    "name": "De Morgan Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5162323,
+      "lng": 76.6603474
+    },
+    "description": "The De Morgan Block at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "alpha-zone",
+    "name": "Alpha Zone",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5171563,
+      "lng": 76.659577
+    },
+    "description": "Premier academic zone with modern classrooms and collaborative learning spaces for undergraduate programs.",
+    "floors": 3,
+    "departments": [
+      "General Academics",
+      "BBA",
+      "BCA"
+    ],
+    "amenities": [
+      "Smart Classrooms",
+      "Collaboration Rooms",
+      "Wi-Fi Zone"
+    ],
+    "nearbyLandmarks": [
+      "Newton Block",
+      "Edison Block",
+      "Admission Block"
+    ]
+  },
+  {
+    "id": "sportorium",
+    "name": "Sportorium",
+    "type": "ground",
+    "coordinates": {
+      "lat": 30.5157957,
+      "lng": 76.6581164
+    },
+    "description": "Indoor sports complex with badminton courts, table tennis, gym, and multi-purpose halls.",
+    "floors": 2,
+    "departments": [
+      "Sports Department"
+    ],
+    "amenities": [
+      "Badminton Courts",
+      "Table Tennis",
+      "Gym",
+      "Yoga Hall",
+      "Indoor Basketball"
+    ],
+    "nearbyLandmarks": [
+      "Exploretorium",
+      "Beta Zone",
+      "Football Ground"
+    ]
+  },
+  {
+    "id": "exploretorium",
+    "name": "Exploretorium",
+    "type": "admin",
+    "coordinates": {
+      "lat": 30.5158467,
+      "lng": 76.6571363
+    },
+    "description": "Science and technology exploration center with interactive exhibits, planetarium, and demo labs.",
+    "floors": 2,
+    "departments": [
+      "Science Outreach",
+      "Innovation"
+    ],
+    "amenities": [
+      "Interactive Exhibits",
+      "Demo Labs",
+      "Planetarium",
+      "Workshop Space"
+    ],
+    "nearbyLandmarks": [
+      "Sportorium",
+      "Football Ground",
+      "UCO Bank"
+    ]
+  },
+  {
+    "id": "football-ground-2",
+    "name": "Football Ground 2",
+    "type": "ground",
+    "coordinates": {
+      "lat": 30.516662,
+      "lng": 76.6579833
+    },
+    "description": "Full-size football ground with natural turf, used for inter-college tournaments and daily practice.",
+    "floors": 3,
+    "departments": [
+      "Sports Department"
+    ],
+    "amenities": [
+      "Natural Turf",
+      "Goal Posts",
+      "Seating Gallery",
+      "Changing Rooms"
+    ],
+    "nearbyLandmarks": [
+      "UCO Bank",
+      "Newton Block",
+      "Volleyball Court"
+    ]
+  },
+  {
+    "id": "omega-zone",
+    "name": "Omega Zone",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5148418,
+      "lng": 76.6609857
+    },
+    "description": "Innovation and research zone with startup incubation center, hackathon spaces, and co-working areas.",
+    "floors": 2,
+    "departments": [
+      "Innovation Center",
+      "Research Wing",
+      "Incubation Cell"
+    ],
+    "amenities": [
+      "Startup Labs",
+      "Co-working Space",
+      "3D Printing Lab",
+      "Conference Room"
+    ],
+    "nearbyLandmarks": [
+      "Flemming Block",
+      "Pie Hostel",
+      "Explore Hub"
+    ]
+  },
+  {
+    "id": "babbage-block",
+    "name": "Babbage Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5174422,
+      "lng": 76.6601322
+    },
+    "description": "The Babbage Block at Chitkara University.",
+    "floors": 6,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "chitkara-parking",
+    "name": "Chitkara Parking",
+    "type": "parking",
+    "coordinates": {
+      "lat": 30.5178301,
+      "lng": 76.6586939
+    },
+    "description": "The Chitkara Parking at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "flemming-block",
+    "name": "Flemming Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5157047,
+      "lng": 76.6607696
+    },
+    "description": "Academic block named after Alexander Fleming. Houses Pharmacy, Biotechnology, and Health Sciences departments.",
+    "floors": 4,
+    "departments": [
+      "Pharmacy",
+      "Biotechnology",
+      "Health Sciences"
+    ],
+    "amenities": [
+      "Pharma Labs",
+      "Biotech Labs",
+      "Classrooms",
+      "Faculty Cabins"
+    ],
+    "nearbyLandmarks": [
+      "Beta Zone",
+      "Omega Zone",
+      "Explore Hub"
+    ]
+  },
+  {
+    "id": "chitkara-woods",
+    "name": "Chitkara Woods",
+    "type": "ground",
+    "coordinates": {
+      "lat": 30.5161073,
+      "lng": 76.6591728
+    },
+    "description": "Green recreational zone with walking trails, benches, and shaded areas for relaxation and informal gatherings.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [
+      "Walking Trails",
+      "Benches",
+      "Garden",
+      "Shaded Seating"
+    ],
+    "nearbyLandmarks": [
+      "Volleyball Court",
+      "Edison Block",
+      "Turing Block"
+    ]
+  },
+  {
+    "id": "beta-zone",
+    "name": "Beta Zone",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5156402,
+      "lng": 76.6598302
+    },
+    "description": "Academic zone housing MBA, management programs, and postgraduate classrooms.",
+    "floors": 3,
+    "departments": [
+      "MBA",
+      "Management Studies"
+    ],
+    "amenities": [
+      "Lecture Halls",
+      "Case Study Rooms",
+      "Placement Prep Room"
+    ],
+    "nearbyLandmarks": [
+      "Flemming Block",
+      "Omega Zone",
+      "Sportorium"
+    ]
+  },
+  {
+    "id": "tuc-shop",
+    "name": "Tuc Shop",
+    "type": "cafeteria",
+    "coordinates": {
+      "lat": 30.5150756,
+      "lng": 76.6594735
+    },
+    "description": "The Tuc Shop at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "pie-hostel",
+    "name": "Pie Hostel",
+    "type": "hostel",
+    "coordinates": {
+      "lat": 30.5147104,
+      "lng": 76.6622112
+    },
+    "description": "Modern student hostel with furnished rooms, mess hall, common rooms, and 24/7 security.",
+    "floors": 5,
+    "departments": [],
+    "amenities": [
+      "Furnished Rooms",
+      "Mess Hall",
+      "Common Room",
+      "Laundry",
+      "Wi-Fi",
+      "Gym"
+    ],
+    "nearbyLandmarks": [
+      "Omega Zone",
+      "LC Girls Hostel",
+      "Flemming Block"
+    ]
+  },
+  {
+    "id": "new-faculty-parking",
+    "name": "New Faculty Parking",
+    "type": "parking",
+    "coordinates": {
+      "lat": 30.516855,
+      "lng": 76.6604635
+    },
+    "description": "The New Faculty Parking at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "boys-hostel",
+    "name": "Boys Hostel",
+    "type": "hostel",
+    "coordinates": {
+      "lat": 30.5138021,
+      "lng": 76.6613803
+    },
+    "description": "The Boys Hostel at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "hospitality-block",
+    "name": "Hospitality Block",
+    "type": "admin",
+    "coordinates": {
+      "lat": 30.5148961,
+      "lng": 76.6593963
+    },
+    "description": "Guest reception and hospitality center. Manages campus visits, parent meetings, and corporate guest coordination.",
+    "floors": 2,
+    "departments": [
+      "Hospitality",
+      "Guest Relations"
+    ],
+    "amenities": [
+      "Guest Lounge",
+      "Meeting Rooms",
+      "Reception",
+      "Cafeteria"
+    ],
+    "nearbyLandmarks": [
+      "Explore Hub",
+      "Omega Zone",
+      "Flemming Block"
+    ]
+  },
+  {
+    "id": "square-one",
+    "name": "Square One",
+    "type": "cafeteria",
+    "coordinates": {
+      "lat": 30.5150174,
+      "lng": 76.6598234
+    },
+    "description": "Main food court and cafeteria offering multi-cuisine options and seating areas for students.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "towards-gate-no-4",
+    "name": "Towards Gate no.4",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5160194,
+      "lng": 76.6592782
+    },
+    "description": "The Towards Gate no.4 at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "turing-block",
+    "name": "Turing Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5162619,
+      "lng": 76.6605823
+    },
+    "description": "Academic block named after Alan Turing. Houses Computer Science and IT departments with smart classrooms, coding labs, and faculty offices.",
+    "floors": 4,
+    "departments": [
+      "Computer Science",
+      "Information Technology"
+    ],
+    "amenities": [
+      "Smart Classrooms",
+      "Computer Labs",
+      "Faculty Cabins",
+      "Seminar Room"
+    ],
+    "nearbyLandmarks": [
+      "Edison Block",
+      "Alpha Zone",
+      "Chitkara Woods"
+    ]
+  },
+  {
+    "id": "vasco-da-gama",
+    "name": "Vasco Da Gama",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5140881,
+      "lng": 76.6619921
+    },
+    "description": "The Vasco Da Gama at Chitkara University.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "volleyball-court",
+    "name": "Volleyball Court",
+    "type": "ground",
+    "coordinates": {
+      "lat": 30.516109,
+      "lng": 76.6586502
+    },
+    "description": "Outdoor volleyball court with sand surface and floodlights for evening games.",
+    "floors": 3,
+    "departments": [
+      "Sports Department"
+    ],
+    "amenities": [
+      "Sand Court",
+      "Floodlights",
+      "Net & Equipment"
+    ],
+    "nearbyLandmarks": [
+      "Chitkara Woods",
+      "Newton Block",
+      "Football Ground"
+    ]
+  },
+  {
+    "id": "admission-block",
+    "name": "Admission Block",
+    "type": "admin",
+    "coordinates": {
+      "lat": 30.5177084,
+      "lng": 76.6589934
+    },
+    "description": "Handles all admission inquiries, registrations, counseling, and document verification for new students.",
+    "floors": 2,
+    "departments": [
+      "Admissions",
+      "Student Counseling"
+    ],
+    "amenities": [
+      "Counseling Rooms",
+      "Registration Counters",
+      "Waiting Area",
+      "Document Verification"
+    ],
+    "nearbyLandmarks": [
+      "Alpha Zone",
+      "Neelam Hospital",
+      "Newton Block"
+    ]
+  },
+  {
+    "id": "neelam-hospital",
+    "name": "Neelam Hospital",
+    "type": "medical",
+    "coordinates": {
+      "lat": 30.5182619,
+      "lng": 76.6579401
+    },
+    "description": "On-campus superspeciality hospital providing 24/7 medical care, OPD, pharmacy, and emergency services to students and staff.",
+    "floors": 3,
+    "departments": [
+      "Medical Services",
+      "Emergency",
+      "Pharmacy"
+    ],
+    "amenities": [
+      "OPD",
+      "Emergency Room",
+      "Pharmacy",
+      "Ambulance",
+      "Specialist Doctors",
+      "Diagnostic Lab"
+    ],
+    "nearbyLandmarks": [
+      "Admission Block",
+      "Alpha Zone",
+      "Newton Block"
+    ]
+  },
+  {
+    "id": "rockfeller-building",
+    "name": "Rockfeller building",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5139948,
+      "lng": 76.6598948
+    },
+    "description": "Rockfeller Building, providing academic and administrative facilities.",
+    "floors": 5,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "martin-luther",
+    "name": "Martin Luther",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5139817,
+      "lng": 76.6604742
+    },
+    "description": "Martin Luther Building, part of the campus academic infrastructure.",
+    "floors": 5,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "football-ground",
+    "name": "Football Ground",
+    "type": "ground",
+    "coordinates": {
+      "lat": 30.517,
+      "lng": 76.6585
+    },
+    "description": "Full-size football ground with natural turf, used for inter-college tournaments and daily practice.",
+    "floors": 0,
+    "departments": [
+      "Sports Department"
+    ],
+    "amenities": [
+      "Natural Turf",
+      "Goal Posts",
+      "Seating Gallery",
+      "Changing Rooms"
+    ],
+    "nearbyLandmarks": [
+      "UCO Bank",
+      "Newton Block",
+      "Volleyball Court"
+    ]
+  },
+  {
+    "id": "lc-girls-hostel",
+    "name": "LC Girls Hostel",
+    "type": "hostel",
+    "coordinates": {
+      "lat": 30.5178,
+      "lng": 76.6605
+    },
+    "description": "Girls hostel with enhanced security, CCTV surveillance, warden quarters, and modern amenities.",
+    "floors": 4,
+    "departments": [],
+    "amenities": [
+      "Furnished Rooms",
+      "Mess Hall",
+      "CCTV Security",
+      "Warden Office",
+      "Wi-Fi",
+      "Indoor Recreation"
+    ],
+    "nearbyLandmarks": [
+      "Admission Block",
+      "Alpha Zone",
+      "Turing Block"
+    ]
+  },
+  {
+    "id": "gate-no-4",
+    "name": "Gate No. 4",
+    "type": "entrance",
+    "coordinates": {
+      "lat": 30.5155,
+      "lng": 76.6575
+    },
+    "description": "Campus entrance gate with security checkpoint, visitor registration, and vehicle entry management.",
+    "floors": 0,
+    "departments": [],
+    "amenities": [
+      "Security Check",
+      "Visitor Registration",
+      "RFID Scanner"
+    ],
+    "nearbyLandmarks": [
+      "Exploretorium",
+      "Sportorium",
+      "Hospitality Block"
+    ]
+  }
+]

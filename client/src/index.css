@@ -1,0 +1,519 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── DESIGN TOKENS ─── */
+:root {
+  --bg-primary: #0a0b10;
+  --bg-secondary: #12141d;
+  --bg-tertiary: #1a1d29;
+  --bg-elevated: #222738;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --brand: #6366f1;
+  --brand-light: #818cf8;
+  --brand-dark: #4f46e5;
+  --accent-cyan: #06b6d4;
+  --accent-pink: #ec4899;
+  --border: rgba(255, 255, 255, 0.06);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --radius-xl: 20px;
+  --radius-lg: 14px;
+  --perspective: 1000px;
+  --glass: rgba(255,255,255,0.6);
+  --glass-border: rgba(255,255,255,0.3);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.04);
+  --shadow-md: 0 8px 32px rgba(0,0,0,0.08);
+  --shadow-lg: 0 16px 48px rgba(0,0,0,0.12);
+  --shadow-glow: 0 0 20px rgba(108,92,231,0.15);
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dark {
+  --bg-primary: #0a0a1a;
+  --bg-secondary: #12122a;
+  --bg-tertiary: #1a1a3e;
+  --bg-elevated: rgba(18,18,42,0.9);
+  --text-primary: #edf2f7;
+  --text-secondary: #a0aec0;
+  --text-muted: #5a6a7a;
+  --border: rgba(255,255,255,0.06);
+  --border-subtle: rgba(255,255,255,0.03);
+  --glass: rgba(18,18,42,0.75);
+  --glass-border: rgba(255,255,255,0.08);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
+  --shadow-md: 0 8px 32px rgba(0,0,0,0.3);
+  --shadow-lg: 0 16px 48px rgba(0,0,0,0.4);
+  --shadow-glow: 0 0 30px rgba(108,92,231,0.25);
+}
+
+/* ─── RESET & BASE ─── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root { height: 100vh; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', 'Inter', sans-serif;
+}
+
+/* ─── GLASSMORPHISM ─── */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(20px) saturate(1.8);
+  -webkit-backdrop-filter: blur(20px) saturate(1.8);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-strong {
+  background: var(--bg-elevated);
+  backdrop-filter: blur(40px) saturate(2);
+  -webkit-backdrop-filter: blur(40px) saturate(2);
+  border: 1px solid var(--glass-border);
+}
+
+/* ─── MAP STYLING ─── */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary) !important;
+  z-index: 1;
+}
+
+.dark .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(1.15) contrast(0.85) saturate(0.8);
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-lg) !important;
+  border: 1px solid var(--border) !important;
+  overflow: hidden;
+}
+
+.leaflet-popup-tip {
+  background: var(--bg-secondary) !important;
+  box-shadow: none !important;
+}
+
+.leaflet-popup-close-button {
+  color: var(--text-muted) !important;
+  font-size: 20px !important;
+  padding: 6px 8px !important;
+}
+
+/* Hide default leaflet controls — we add custom ones */
+.leaflet-control-zoom { display: none !important; }
+.leaflet-control-attribution {
+  background: transparent !important;
+  color: var(--text-muted) !important;
+  font-size: 9px !important;
+  opacity: 0.5;
+}
+
+/* ─── SCROLLBAR ─── */
+.custom-scroll::-webkit-scrollbar { width: 4px; }
+.custom-scroll::-webkit-scrollbar-track { background: transparent; }
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--brand), var(--accent-cyan));
+  border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-light);
+}
+
+/* ─── ANIMATIONS ─── */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-slide-up { animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-down { animation: slideDown 0.35s ease-out forwards; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in { animation: fadeIn 0.4s ease-out forwards; }
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-scale-in { animation: scaleIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent 25%, rgba(255,255,255,0.08) 50%, transparent 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes typing {
+  0%, 60%, 100% { opacity: 0.3; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+.typing-dot { animation: typing 1.4s infinite; }
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.animate-float { animation: float 3s ease-in-out infinite; }
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+.animate-breathe { animation: breathe 3s ease-in-out infinite; }
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+@keyframes march {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -20; }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(108,92,231,0.3); }
+  50% { box-shadow: 0 0 24px rgba(108,92,231,0.5); }
+}
+.animate-glow { animation: glow 2s ease-in-out infinite; }
+
+@keyframes staggerChild {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── ROUTE POLYLINE ─── */
+@keyframes routePulse {
+  0%, 100% { stroke-opacity: 0.9; }
+  50% { stroke-opacity: 0.4; }
+}
+
+/* ─── MARKER STYLING ─── */
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 11px;
+  color: white;
+  transition: transform var(--transition-fast);
+}
+
+.custom-marker:hover {
+  transform: scale(1.1) translateY(-2px);
+}
+
+/* ─── LIVE TRAFFIC PULSING ─── */
+@keyframes trafficPulse {
+  0% { transform: scale(0.5); opacity: 0.8; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+.traffic-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.traffic-ring::before, .traffic-ring::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  animation: trafficPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.traffic-ring::after { animation-delay: 1s; }
+
+.traffic-busy::before, .traffic-busy::after {
+  background: var(--danger);
+  animation-duration: 1.5s;
+}
+.traffic-moderate::before, .traffic-moderate::after {
+  background: var(--warning);
+}
+.traffic-quiet::before, .traffic-quiet::after {
+  background: var(--success);
+  animation-duration: 3s;
+}
+
+/* ─── UTILITY CLASSES ─── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--brand), var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-border {
+  position: relative;
+}
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, var(--brand), var(--accent-cyan), var(--accent-pink));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.hover-lift {
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-smooth);
+  box-shadow: 0 4px 16px rgba(108,92,231,0.3);
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(108,92,231,0.4);
+}
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ─── BACKDROP OVERLAY ─── */
+.overlay-backdrop {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.dark .overlay-backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* ─── PANEL CONTAINER ─── */
+.panel-container {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+/* ─── MOBILE NAV ─── */
+@media (min-width: 768px) {
+  .mobile-nav { display: none !important; }
+}
+
+/* ─── LIVE GPS TRACKING ─── */
+@keyframes gps-pulse {
+  0%   { transform: scale(1);   opacity: 0.9; }
+  70%  { transform: scale(3.5); opacity: 0; }
+  100% { transform: scale(1);   opacity: 0; }
+}
+
+@keyframes gps-pulse2 {
+  0%   { transform: scale(1);   opacity: 0.6; }
+  70%  { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(1);   opacity: 0; }
+}
+
+/* The live-dot is a raw DOM element injected into the Leaflet map */
+.gps-dot-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gps-dot-ring {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(74, 144, 226, 0.35);
+  animation: gps-pulse 2.2s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+.gps-dot-ring2 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(74, 144, 226, 0.45);
+  animation: gps-pulse2 2.2s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  animation-delay: 0.4s;
+}
+
+.gps-dot-core {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #4a90e2;
+  border: 2.5px solid #fff;
+  box-shadow: 0 2px 12px rgba(74, 144, 226, 0.7);
+  position: relative;
+  z-index: 2;
+}
+
+/* Tracker status toast */
+@keyframes toastSlideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+.tracker-toast {
+  animation: toastSlideIn 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Track-me button active glow */
+@keyframes trackGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(74,144,226,0.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(74,144,226,0); }
+}
+.tracking-active-btn {
+  animation: trackGlow 1.8s ease-in-out infinite;
+}
+
+
+/* ─── ADVANCED 3D PERSPECTIVE ─── */
+.map-3d-container {
+  perspective: var(--perspective);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: visible !important;
+}
+
+.map-3d-active .leaflet-container {
+  transform: rotateX(46deg) scale(1.15) translateY(-60px) rotateZ(-2deg);
+  filter: saturate(1.2) contrast(1.1);
+  box-shadow: 0 50px 100px rgba(0,0,0,0.5);
+}
+
+/* Counter-rotate markers so they stand upright */
+.map-3d-active .leaflet-marker-icon {
+  transform-origin: bottom center;
+  transform: rotateX(-46deg) !important;
+}
+
+/* ─── HOLOGRAPHIC PILLARS ─── */
+@keyframes pillar-glow {
+  0%, 100% { height: 60px; opacity: 0.4; }
+  50% { height: 120px; opacity: 0.15; }
+}
+
+.hologram-pillar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  background: linear-gradient(to top, var(--brand), transparent);
+  transform: translateX(-50%);
+  pointer-events: none;
+  animation: pillar-glow 3s ease-in-out infinite;
+  display: none; /* Only show in 3D mode */
+}
+
+.map-3d-active .hologram-pillar {
+  display: block;
+}
+
+/* ─── ATMOSPHERIC OVERLAYS ─── */
+.weather-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1000;
+  transition: background 3s ease;
+}
+
+.weather-night { background: radial-gradient(circle at center, transparent 30%, rgba(10, 11, 20, 0.5) 100%); }
+.weather-sunset { background: radial-gradient(circle at top right, rgba(234, 88, 12, 0.2) 0%, transparent 70%); }
+.weather-morning { background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.15) 0%, transparent 70%); }
+
+.digital-twin-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(99, 102, 241, 0.05) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.map-3d-active .digital-twin-grid {
+  opacity: 1;
+}

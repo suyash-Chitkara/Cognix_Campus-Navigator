@@ -1,0 +1,52 @@
+[
+  {
+    "id": "evt-1",
+    "title": "AI & Machine Learning Workshop",
+    "host": "Coding Club",
+    "date": "2026-03-28",
+    "time": "10:00 AM - 1:00 PM",
+    "location": "block-a",
+    "description": "Hands-on workshop on building ML models with TensorFlow and PyTorch.",
+    "category": "workshop"
+  },
+  {
+    "id": "evt-2",
+    "title": "Campus Placement Drive – TCS",
+    "host": "Training & Placement Cell",
+    "date": "2026-03-30",
+    "time": "9:00 AM - 5:00 PM",
+    "location": "placement-cell",
+    "description": "TCS campus recruitment for B.Tech 2026 batch. Carry resume and ID.",
+    "category": "placement"
+  },
+  {
+    "id": "evt-3",
+    "title": "Annual Cultural Fest – Inferno",
+    "host": "Student Council",
+    "date": "2026-04-05",
+    "time": "All Day",
+    "location": "central-lawn",
+    "description": "Three-day cultural extravaganza with music, dance, drama, and food stalls.",
+    "category": "cultural"
+  },
+  {
+    "id": "evt-4",
+    "title": "Guest Lecture: Future of Cloud Computing",
+    "host": "CSE Department",
+    "date": "2026-04-02",
+    "time": "2:00 PM - 4:00 PM",
+    "location": "auditorium",
+    "description": "Industry expert talk on AWS, Azure, and GCP career paths.",
+    "category": "seminar"
+  },
+  {
+    "id": "evt-5",
+    "title": "Inter-College Basketball Tournament",
+    "host": "Sports Department",
+    "date": "2026-04-10",
+    "time": "8:00 AM - 6:00 PM",
+    "location": "basketball-court",
+    "description": "Annual basketball tournament with teams from 10+ colleges.",
+    "category": "sports"
+  }
+]

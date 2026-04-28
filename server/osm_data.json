@@ -1,0 +1,576 @@
+[
+  {
+    "id": "uco-bank",
+    "name": "UCO Bank",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5168232,
+      "lng": 76.6574394
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "mass-communication-block",
+    "name": "Mass Communication Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5173747,
+      "lng": 76.6588278
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "teresa-girls-hostel",
+    "name": "Teresa Girls Hostel",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5172499,
+      "lng": 76.6586186
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "old-girls-hostel-ogh-",
+    "name": "Old Girls Hostel (OGH)",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5169265,
+      "lng": 76.6587473
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "socrates-hall",
+    "name": "Socrates Hall",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5166353,
+      "lng": 76.6588814
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "saraswati-mata",
+    "name": "Saraswati Mata",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.515935,
+      "lng": 76.6601754
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "mech",
+    "name": "Mech",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5155602,
+      "lng": 76.6581192
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "tq",
+    "name": "TQ",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5147739,
+      "lng": 76.660105
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "neelam-hospital-superspeciality-health-care",
+    "name": "Neelam Hospital Superspeciality Health Care",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5188217,
+      "lng": 76.6585059
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "dr-sidhant-bansal",
+    "name": "Dr. Sidhant Bansal",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5190116,
+      "lng": 76.6582124
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "le-corbusier-block",
+    "name": "Le Corbusier Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5172646,
+      "lng": 76.6604831
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "edison-block",
+    "name": "Edison Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5164539,
+      "lng": 76.6599308
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "newton-block",
+    "name": "Newton Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5164505,
+      "lng": 76.6591975
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "galileo-block",
+    "name": "Galileo Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5156555,
+      "lng": 76.6591438
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "pythagoras",
+    "name": "PYTHAGORAS",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5150733,
+      "lng": 76.6591063
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 1,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "explore-hub",
+    "name": "Explore Hub",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5152723,
+      "lng": 76.659442
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "de-morgan-block",
+    "name": "De Morgan Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5162323,
+      "lng": 76.6603474
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "alpha-zone",
+    "name": "Alpha Zone",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5171563,
+      "lng": 76.659577
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "sportorium",
+    "name": "Sportorium",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5157957,
+      "lng": 76.6581164
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "exploretorium",
+    "name": "Exploretorium",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5158467,
+      "lng": 76.6571363
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "football-ground-2",
+    "name": "Football Ground 2",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.516662,
+      "lng": 76.6579833
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "omega-zone",
+    "name": "Omega Zone",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5148418,
+      "lng": 76.6609857
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "babbage-block",
+    "name": "Babbage Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5174422,
+      "lng": 76.6601322
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 6,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "chitkara-parking",
+    "name": "Chitkara Parking",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5178301,
+      "lng": 76.6586939
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "flemming-block",
+    "name": "Flemming Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5157047,
+      "lng": 76.6607696
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "chitkara-woods",
+    "name": "Chitkara Woods",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5161073,
+      "lng": 76.6591728
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "beta-zone",
+    "name": "Beta Zone",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5156402,
+      "lng": 76.6598302
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "tuc-shop",
+    "name": "Tuc Shop",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5150756,
+      "lng": 76.6594735
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "pie-hostel",
+    "name": "Pie Hostel",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5147104,
+      "lng": 76.6622112
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 7,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "new-faculty-parking",
+    "name": "New Faculty Parking",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.516855,
+      "lng": 76.6604635
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "boys-hostel",
+    "name": "Boys Hostel",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5138021,
+      "lng": 76.6613803
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "hospitality-block",
+    "name": "Hospitality Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5148961,
+      "lng": 76.6593963
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "square-one",
+    "name": "Square One",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5150174,
+      "lng": 76.6598234
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "towards-gate-no-4",
+    "name": "Towards Gate no.4",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5160194,
+      "lng": 76.6592782
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "turing-block",
+    "name": "Turing Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5162619,
+      "lng": 76.6605823
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 7,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "vasco-da-gama",
+    "name": "Vasco Da Gama",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5140881,
+      "lng": 76.6619921
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "volleyball-court",
+    "name": "Volleyball Court",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.516109,
+      "lng": 76.6586502
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "admission-block",
+    "name": "Admission Block",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5177084,
+      "lng": 76.6589934
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "neelam-hospital",
+    "name": "Neelam Hospital",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5182619,
+      "lng": 76.6579401
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 3,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "rockfeller-building",
+    "name": "Rockfeller building",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5139948,
+      "lng": 76.6598948
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 5,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  },
+  {
+    "id": "martin-luther",
+    "name": "Martin Luther",
+    "type": "academic",
+    "coordinates": {
+      "lat": 30.5139817,
+      "lng": 76.6604742
+    },
+    "description": "Building on Chitkara campus.",
+    "floors": 5,
+    "departments": [],
+    "amenities": [],
+    "nearbyLandmarks": []
+  }
+]

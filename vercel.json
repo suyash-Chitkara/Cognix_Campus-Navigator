@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd client && npm install && npx vite build",
+  "outputDirectory": "client/dist",
+  "installCommand": "npm install",
+  "rewrites": [
+    { "source": "/api/campus/:path*", "destination": "/api/campus" },
+    { "source": "/api/chat", "destination": "/api/chat" },
+    { "source": "/api/events", "destination": "/api/events" },
+    { "source": "/api/health", "destination": "/api/health" }
+  ]
+}
