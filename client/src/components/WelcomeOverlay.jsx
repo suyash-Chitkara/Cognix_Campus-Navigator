@@ -44,12 +44,12 @@ export default function WelcomeOverlay({ onDismiss }) {
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center overlay-backdrop animate-fade-in">
       <div
-        className="w-full max-w-md mx-4 panel-container animate-scale-in overflow-hidden"
-        style={{ maxHeight: '85vh' }}
+        className="w-full max-w-md mx-4 panel-container animate-scale-in flex flex-col overflow-hidden"
+        style={{ maxHeight: '90vh' }}
       >
         {/* Animated header */}
         <div
-          className="relative px-8 pt-10 pb-8 text-center overflow-hidden"
+          className="relative px-8 pt-8 pb-6 text-center overflow-hidden shrink-0"
           style={{
             background: 'linear-gradient(135deg, #4f46e5, #0ea5e9, #8b5cf6)',
           }}
@@ -97,7 +97,7 @@ export default function WelcomeOverlay({ onDismiss }) {
         </div>
 
         {/* Feature slides */}
-        <div className="px-6 py-6">
+        <div className="px-6 py-6 overflow-y-auto flex-1">
           <div className="space-y-3">
             {features.map((f, i) => {
               const Icon = f.icon;
