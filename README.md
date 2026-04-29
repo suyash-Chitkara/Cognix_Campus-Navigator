@@ -1,4 +1,21 @@
 # 🧭 Cognix v2.0 — Advanced Campus Digital Twin
+## Project Title
+Cognix: Smart Campus Navigator
+
+## 👥 Team Details
+### 👑 Team Leader
+* **Somya Bhatt** (2210990861)
+### 💡 Project Leads
+* **Suyash Sharma** (2210991000)
+* **Kundan Tamsoy** (2210991827)
+* **Abu Ezaan Anjum** (2210991174)
+### 🛠️ Team Members
+* **Somya Bhatt** (2210990861)
+* **Suyash Sharma** (2210991000)
+* **Kundan Tamsoy** (2210991827)
+* **Abu Ezaan Anjum** (2210991174)
+
+**Project Type:** Copyrighte 
 
 **🌍 Live Demo: [https://cognix-campus-navigatorupdate.vercel.app/](https://cognix-campus-navigatorupdate.vercel.app/)**
 
